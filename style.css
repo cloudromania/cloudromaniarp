@@ -1,0 +1,77 @@
+/* Resetări de bază */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Imaginea principală */
+.banner {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+}
+
+/* Butonul Discord */
+.discord-link {
+    margin-top: 30px;
+    font-size: 1.8rem;
+    background-color: #7289DA;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.discord-link:hover {
+    background-color: #5b6eae;
+}
+
+/* Grupul de butoane info */
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Butoanele „Regulament” și „Sancțiuni” */
+.info-button {
+    font-size: 1.8rem;
+    background-color: #7289DA;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.info-button:hover {
+    background-color: #5b6eae;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: gray;
+}
